@@ -8,11 +8,14 @@
     "node": ">=12.0"
   },
   "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib",
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dougmoscrop/serverless-http"
+    "url": "git+https://github.com/dougmoscrop/serverless-http.git"
   },
   "scripts": {
     "pretest": "tsc --strict --skipLibCheck --noEmit test/typecheck.ts",
@@ -89,5 +92,8 @@
     "sinon": "^13.0.1",
     "supertest": "^6.2.2",
     "typescript": "^4.6.3"
+  },
+  "bugs": {
+    "url": "https://github.com/dougmoscrop/serverless-http/issues"
   }
 }
